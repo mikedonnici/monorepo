@@ -6,7 +6,7 @@ authors = ["Mike Donnici <michael.donnici@dpie.nsw.gov.au>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-fakomatic = {path = "../../mods/fakomatic", develop = true}
+hello = {path = "../../pkg/hello", develop = true}
 
 [tool.poetry.dev-dependencies]
 

@@ -1,7 +1,7 @@
 import time
 
-from fakomatic import foo
+from hello.hello import say_hi
 
 while True:
-    foo.say_hi()
+    say_hi()
     time.sleep(5)

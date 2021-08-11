@@ -1,5 +1,5 @@
 [[package]]
-name = "fakomatic"
+name = "hello"
 version = "0.1.0"
 description = ""
 category = "main"
@@ -9,12 +9,12 @@ develop = true
 
 [package.source]
 type = "directory"
-url = "../../mods/fakomatic"
+url = "../../pkg/hello"
 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "6fa871d52a0b43006900d153a738ef3d68533221079988d2862ac978ae8f9f2d"
+content-hash = "ce4fed19dbc429909bf053b73beadb2aeb915e2813c0724de4744ae45e812a97"
 
 [metadata.files]
-fakomatic = []
+hello = []

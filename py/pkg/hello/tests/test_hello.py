@@ -1,4 +1,4 @@
-from fakomatic import __version__
+from hello import __version__
 
 
 def test_version():
