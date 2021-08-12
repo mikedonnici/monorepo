@@ -12,6 +12,21 @@ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/install-
 
 For a complete list of commands check out the [poetry cli](https://python-poetry.org/docs/master/cli/)
 
+## Virtual Env
+
+Poetry will create its own virtual environment by default which can cause confusion if an environment already exists.
+
+See poetry [virtual environment](https://python-poetry.org/docs/master/basic-usage/#using-your-virtual-environment)
+docs for details.
+
+The easy way:
+
+- Open the top-level project folder in the IDE.
+- Run `poetry shell` to initialise / start the poetry venv - there's
+  a [plugin for PyCharm](https://plugins.jetbrains.com/plugin/14307-poetry)
+- `poetry add foo` to add a new dependency
+- `poetry update` to update dependencies
+
 ## Create a local package
 
 Run this command in the dir the package is to be created:
