@@ -12,8 +12,8 @@ text-unidecode = "1.3"
 
 [[package]]
 name = "hello"
-version = "0.1.0"
-description = ""
+version = "0.1.1"
+description = "says hello to a fake name"
 category = "main"
 optional = false
 python-versions = "^3.8"
