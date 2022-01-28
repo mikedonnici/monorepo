@@ -23,10 +23,11 @@ Ideas:
 ```
 /
 ├── go
-│   ├── hellosrvc      <-- backend service that says hello in a random language
-│       ├── cmd        <-- go packages that are executable
-│       └── internal
-            └── store
+│   ├── cmd                <-- go packages that are executable
+│   │   └── hello-grpc     <-- backend grpc service that says "hello"
+│   │   └── hello-http     <-- backend http service that says "hello" 
+│   └── internal           <-- go packages that are internal-only (or just pkg?)
+│       └── store
 │ 
 ├── proto       <-- proto files accessible to all project that need them
 │
@@ -38,3 +39,13 @@ Ideas:
 ├──  
 └── vue          <-- complete frontend apps written in Vue
 ```
+
+Todo:
+
+- [x] Create basic grpc server
+- [x] Create python grpc client from same `proto` definition
+- [x] Create http service with fastapi that used grpc client to talk to gRPC server
+- [ ] Add tests
+- [ ] Set up a docker stack
+- [ ] Store secrets / env vars in consul
+- [ ] Deploy to GCS using terraform with GitHub actions

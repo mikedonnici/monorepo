@@ -2,16 +2,6 @@
 
 Contains Go source code.
 
-Todo:
-
-- [x] Create basic grpc server
-- [ ] Create python grpc client from same `proto` definition
-- [ ] Create http service with fastapi that used grpc client to talk to gRPC server
-- [ ] Add tests
-- [ ] Set up a docker stack
-- [ ] Store secrets / env vars in consul
-- [ ] Deploy to GCS using terraform with GitHub actions
-
 # grpcurl command line tool
 
 - Install [grpcurl](https://github.com/fullstorydev/grpcurl)
